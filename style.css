@@ -44,6 +44,13 @@ body {
     text-align: center;
 }
 
+.hero-photo-wrapper {
+    padding: 5px;
+    background-color: #6a633a;  /* Цвет фона рамки */
+    display: inline-block;
+    width: 100%;
+}
+
 .hero-photo {
     width: 100%;
     height: auto;
@@ -51,6 +58,7 @@ body {
     filter: none;
     aspect-ratio: 11 / 16;
     object-fit: cover;
+    border: 2px solid #dcd7d1b4;  /* Внутренняя рамка под цвет фона */
 }
 
 /* Секция SAVE THE DATE */
